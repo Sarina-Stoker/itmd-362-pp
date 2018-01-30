@@ -1,7 +1,7 @@
 
 
-  /*$(document).ready(function () {
-      $(#'Contact').on('submit',*/
+  /$(document).ready(function () {
+      $(#'Contact').on('submit',
       
       function function_by_id(){
        
