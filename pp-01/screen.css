@@ -140,8 +140,8 @@ html{
 }
 
 h1,header{
-  font-size: 2.5em; /*40 divided by 16*/
-  Line-height:1.1em; /*44 divided by 40*/
+  font-size: 1.875em; /*30 divided by 16*/
+  Line-height:0.93em; /*28 divided by 30*/
 }
 
 h2{
