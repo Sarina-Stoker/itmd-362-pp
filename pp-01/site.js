@@ -1,9 +1,9 @@
 
-$('#Contact').on('submit',
-function(){
-  /*$(document).ready(funtion () {
-      $(#submit).click(function()
-      { */
+
+  $(document).ready(funtion () {
+      $(#'Contact').on('submit',
+      function(){
+       
         var dobValue=document.getElementById("dob").value;
         var month=dobValue.value.substr(0,2);
         var day=dobValue.value.substr(3,2);
@@ -19,11 +19,16 @@ function(){
           age--;     
         }
         if (age < 18) alert("You have to be 18 or older to sign up. Sorry!")
-        else{
-           e.preventDefault();
-           console.log('The form was submitted.');
-        }
-      }
+     
+  }}));
+    
+
+
+$('#Contact').on('submit',
+  function() {
+    console.log('The form was submitted.');
+     e.preventDefault();
+    
   }
-)}));
+  );
 
