@@ -1,9 +1,9 @@
 
 $('#Contact').on('submit',
-(function($){
-  $(document).ready(funtion () {
-      $(#button).click(function()
-      {
+function(){
+  /*$(document).ready(funtion () {
+      $(#submit).click(function()
+      { */
         var dobValue=document.getElementById("dob").value;
         var month=dobValue.value.substr(0,2);
         var day=dobValue.value.substr(3,2);
