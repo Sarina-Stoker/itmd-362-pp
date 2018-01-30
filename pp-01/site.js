@@ -1,7 +1,7 @@
 
 
   /$(document).ready(function () {
-      $(#'Contact').on('submit',
+      $('#Contact').submit(
       
       function function_by_id(){
        
@@ -19,9 +19,9 @@
         else if(today.getMonth()/1==month && today.getDay()/1<=day){
           age--;     
         }
-        if (age < 18) alert("You have to be 18 or older to sign up. Sorry!")
+        if (age < 18) alert("You have to be 18 or older to sign up. Sorry!");
      
-  };
+  })});
     
 
 
