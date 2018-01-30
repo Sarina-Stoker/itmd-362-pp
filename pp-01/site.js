@@ -1,8 +1,9 @@
 
 
-  $(document).ready(funtion () {
-      $(#'Contact').on('submit',
-      function(){
+  /*$(document).ready(function () {
+      $(#'Contact').on('submit',*/
+      
+      function function_by_id(){
        
         var dobValue=document.getElementById("dob").value;
         var month=dobValue.value.substr(0,2);
@@ -20,7 +21,7 @@
         }
         if (age < 18) alert("You have to be 18 or older to sign up. Sorry!")
      
-  }}));
+  };
     
 
 
