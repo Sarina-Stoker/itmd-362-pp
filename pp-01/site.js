@@ -1,6 +1,6 @@
 
 
-  /$(document).ready(function () {
+  $(document).ready(function () {
       $('#Contact').submit(
       
       function function_by_id(){
