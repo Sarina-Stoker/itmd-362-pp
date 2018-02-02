@@ -3,9 +3,9 @@
   $(document).ready(function () {
        
         var dobValue=document.getElementById("dob").value;
-        var month=dobValue.value.substr(0,2);
-        var day=dobValue.value.substr(3,2);
-        var year=dobValue.value.substr(6,4);
+        var month=dobValue.substr(0,2);
+        var day=dobValue.substr(3,2);
+        var year=dobValue.substr(6,4);
         
         var today = new Date();
 
