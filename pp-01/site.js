@@ -13,10 +13,12 @@
         if(today.getMonth()/1 < month){
           age--;     
         }
-        else if(today.getMonth()/1==month && today.getDay()/1<=day){
+        else if(today.getMonth()/1==month && today.getDay()/1<day){
           age--;     
         }
-        if (age < 18) alert("You have to be 18 or older to sign up. Sorry!");
+        if (age < 18) {
+          alert("You have to be 18 or older to sign up. Sorry!");
+        }
      
   });
     
