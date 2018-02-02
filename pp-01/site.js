@@ -21,7 +21,7 @@
         }
         if (age < 18) alert("You have to be 18 or older to sign up. Sorry!");
      
-  })});
+  };
     
 
 
