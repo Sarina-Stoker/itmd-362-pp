@@ -1,9 +1,6 @@
 
 
-  /*$(document).ready(function () {
-      $('#Contact').submit( */
-      
-      function function_by_id(){
+  $(document).ready(function () {
        
         var dobValue=document.getElementById("dob").value;
         var month=dobValue.value.substr(0,2);
