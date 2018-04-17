@@ -15,8 +15,8 @@ your own master usability checklist.
 
 * URLs for the usability checklists you've found:
 
-1.
-2.
+1.http://drpete.co/pdf/checklist.pdf
+2.https://en.ryte.com/magazine/usability-checklist-for-successful-websites
 
 * Your own condensed, ten-item must-have usability checklist:
 
