@@ -20,13 +20,13 @@ your own master usability checklist.
 
 * Your own condensed, ten-item must-have usability checklist:
 
-1.
-2.
-3.
-4.
-5.
-6.
-7.
-8.
-9.
-10.
+1. Site Load time is reasonable
+2. Adequate text to background contrast
+3. Styles and colors consistent
+4. Font style and size
+5. Main Navigation is easily identifiable
+6. Navigation labels clear
+7. Major Headings Clear
+8. Javascript effects used sensibly (consideration for mobile)
+9. Tidy site impression
+10. Unobtrusive and limited ads
